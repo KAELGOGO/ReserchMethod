@@ -5,7 +5,7 @@ import time
 import random
 import os
 
-OUTPUT_FILE = "dataset_indofinbert_bersih_tanggalFULLAfter29-10-2023.csv"
+OUTPUT_FILE = "dataset_bisnis.csv"
 FILE_TANGGAL = "list_tanggal_full.txt"
 
 if not os.path.exists(FILE_TANGGAL):
