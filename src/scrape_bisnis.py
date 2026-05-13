@@ -5,7 +5,6 @@ import time
 import random
 import os
 
-# === KONFIGURASI RISET KELVIN & OWEN ===
 OUTPUT_FILE = "dataset_indofinbert_bersih_tanggalFULLAfter29-10-2023.csv"
 FILE_TANGGAL = "list_tanggal_full.txt"
 
@@ -19,7 +18,6 @@ with open(FILE_TANGGAL, 'r') as f:
 print(f"=== STRICT INVISIBLE SCRAPER: 969 HARI MENUJU SCOPUS ===")
 
 options = uc.ChromeOptions()
-# options.add_argument('--headless')
 driver = uc.Chrome(options=options)
 
 database_all = []
