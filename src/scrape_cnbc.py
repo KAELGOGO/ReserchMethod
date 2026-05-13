@@ -6,7 +6,7 @@ import random
 import os
 
 # === KONFIGURASI RISET CNBC INDONESIA ===
-OUTPUT_FILE = "dataset_indofinbert_cnbc_full.csv"
+OUTPUT_FILE = "dataset_cnbc.csv"
 FILE_TANGGAL = "list_tanggal_full.txt"
 
 if not os.path.exists(FILE_TANGGAL):
